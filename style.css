@@ -1,0 +1,171 @@
+a {
+	color: grey;
+}
+
+.list-unstyled a {
+	color:white;
+}
+
+.card-img-top {    
+  opacity:0.5;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: white;
+	background-color: grey;
+}
+
+.nav-pills .nav-link {
+	color: grey;
+}
+
+
+.card:hover .card-img-top {
+	opacity: 1;
+}
+
+.card:hover .centered {
+	opacity: 0;
+}
+
+.normal_name {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   border-radius:50px;
+   width:80%;
+   text-align: center;
+  
+}
+
+.normal_name p {
+	
+	color:white;
+	font-size: 5vw;
+	color:white;
+}
+
+
+.card:hover .normal_name {
+	opacity:0;
+}
+
+.card .container {
+	position: relative;
+}
+
+.centered {
+  
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+   border-radius:50px;
+   width:80%;
+   text-align: center;
+}
+
+.centered p {
+	background-color:#EEEEEE;
+  color:#263238; 
+  font-size:10vw;
+}
+
+.centered span {
+  color: rgba(255, 115, 0, 0.918)
+}
+
+.HoverName {
+	display: flex;
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+  color:red;
+  transform: translate( -50%, -50% );
+  
+  font-size: 15vw;
+  text-align: center;
+  opacity: 0;
+}
+
+.card:hover .HoverName {
+	opacity:1;
+}
+
+.HoverName p {
+	position: absolute;
+}
+
+#reward {
+	border: none;
+}
+
+.container .card {
+	border: none;
+}
+
+.best_hunterz {
+	margin : 0, 10%;
+}
+
+.mymargin {
+	margin: 0, 10%;
+}
+
+
+@media (min-width: 540px) {
+
+
+
+
+.centered {
+  
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+   border-radius:50px;
+   width:80%;
+   text-align: center;
+}
+
+.centered p {
+	background-color:#EEEEEE;
+  color:#263238; 
+  font-size:2.2vw;
+}
+
+.HoverName {
+
+  position: absolute;
+  bottom: 85%;
+  left: 15%;
+  color:red;
+  
+  font-size: 5vw;
+  text-align: center;
+  opacity: 0;
+}
+
+.normal_name {
+  
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+   border-radius:50px;
+   width:80%;
+   text-align: center;
+}
+
+.normal_name p {
+
+  color:white; 
+  font-size:2.2vw;
+}
+
+
+
+
+
